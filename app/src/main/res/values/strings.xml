@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">lab3-milestone1</string>
+    <string name = "submitButton">Submit</string>
 </resources>
