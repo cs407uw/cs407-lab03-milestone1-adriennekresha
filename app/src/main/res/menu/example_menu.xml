@@ -8,7 +8,18 @@
         android:icon = "@drawable/ic_icon"
         app:showAsAction = "ifRoom"></item>
     <item
-        android:id = "@+id/item2"
-        android:title ="Item 2"
-        app:showAsAction="never"></item>
+        android:id="@+id/item2"
+        android:title="Item 2"
+        app:showAsAction="never">
+            <menu>
+                <item
+                    android:id="@+id/submenuItem"
+                    android:title="submenu Item"
+                    app:showAsAction="never"/>
+            </menu>
+
+    </item>
+
+
+
 </menu>
